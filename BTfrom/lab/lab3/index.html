@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {margin: 0px;}
+        #container {width: 1000px;margin: 0px auto;min-height: 600px;background-color: #CCC;}
+        header {background-color: #FF0;height: 150px;position: relative;}
+        nav {height: 60px;background-color: #000;color: #FFF;}
+        ul li {display: inline-block; /*tự trôi*/padding: 5px 10px;}
+        a{text-decoration: none;color: #FFF;}
+        li:hover {text-decoration: underline;background-color: #CF3;color: #F00;border-radius: 9px;}
+        #content {background-color: rgb(90, 177, 69);min-height: 400px;width: 300px;float: left;padding: 5px;}
+        #right {background-color: rgb(184, 90, 159);min-height: 400px;width: 1200px;float: left;}
+        footer {background-color: rgb(110, 54, 96);color: #FFF;height: 30px;text-align: center;clear: both;margin: 5px 0px 0px 0px;padding: 10px 0px 0px 0px;}
+
+    </style>
+</head>
+<body>
+    <div id="xetai">
+        <header>
+            <div style="position: absolute; top: 5px; right: 5px;">
+            <img src="./facebook.png" width="32" height="32">
+            <img src="./zalo.png" width="32" height="32">
+            </div>
+        </header>
+        <!--Menu ngang-->
+        <nav>
+            <div style="float:left">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">FeedBack</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </div>
+            <div style="float: left;">
+                <img src="./usa.png" width="24" height="24">
+                <img src="./vn.png" width="24" height="24">
+            </div>
+        </nav>
+        <div style="clear:both;"></div>
+        <!--Phần nội dung trang-->
+        <div id="content">
+             Nội dung
+        </div>
+        <div id="right">MENU PHẢI</div>
+        <footer>
+            Bản quyền thuộc về &copy; HIENLTH 2014.
+        </footer>
+            
+        
+        
+       
+    </div>
+</body>
+</html>
